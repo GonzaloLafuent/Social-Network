@@ -1,0 +1,39 @@
+#nav-bar{
+    grid-area: 1/1/2/3;
+    display: flex;
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+    .icon{
+        margin: 5px;
+        width: 2vw;
+    }
+
+    #search{
+        height: 4vh;
+    }
+
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 20px;
+}

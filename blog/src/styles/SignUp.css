@@ -1,0 +1,59 @@
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template: 2/1/3/2;
+    gap: 5px;
+  }
+
+    input{
+      border-radius: 6px;
+      width: 35vw;
+      height: 6vh;
+    }
+
+    input:hover {
+      border-color: #646cff;
+    }
+
+    fieldset{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border: 0;
+    }
+
+    #personal-info{
+      display: grid;
+      grid-template: repeat(2,auto)/ repeat(2,18vw);
+    }  
+      #name{
+        grid-area: 1/1/2/2;
+        width: 16vw;
+      }
+
+      #lastname{
+        grid-area: 1/2/2/3;
+        width: 17vw;
+      }
+
+      #date-birth{
+        grid-area: 2/1/3/3;
+        
+      }
+
+      .label-personal-info{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 10px;
+      }
+
+    #submit{
+      border-radius: 16px;
+      width: 12vw;
+      height: 7vh;
+    }
+
+
