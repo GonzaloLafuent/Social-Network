@@ -24,7 +24,7 @@ const { default: mongoose } = require('mongoose');
 
 var app = express();
 
-const DATA_BASE_PASSWORD  = "braghieri_12";
+const DATA_BASE_PASSWORD  = "";
 
 const URL = "mongodb+srv://lafuentegonzalo1:"+DATA_BASE_PASSWORD+"@blog.ecsb9ga.mongodb.net/?retryWrites=true&w=majority&appName=blog";
 
